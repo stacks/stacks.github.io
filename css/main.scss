@@ -37,3 +37,26 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+header.site-header {
+  background-color: #d9d8d1;
+}
+
+header.site-header:hover {
+  background-color: #c9c8c1;
+}
+
+header.site-header a.site-title {
+  background-image: url("../stacks.png");
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  padding-left: 45px;
+}
+
+header.site-header a.site-title:hover {
+  text-decoration: none;
+}
+
+ul.contact-list {
+  margin-top: .5em;
+}
