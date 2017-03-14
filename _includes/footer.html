@@ -5,11 +5,6 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-3">
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        <ul class="contact-list">
-          <li>Pieter Belmans
-          <li>Johan de Jong
-          <li>Wei Ho
-        </ul>
       </div>
 
       <div class="footer-col footer-col-3">
@@ -19,18 +14,12 @@
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
-        <p>This workshop is supported by the NSF.
+        <p>This website is hosted by the GitHub.
       </div>
     </div>
 
