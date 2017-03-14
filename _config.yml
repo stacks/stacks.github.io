@@ -17,7 +17,6 @@ title: Mateo Carmona G
 email: mateo.carm at protonmail.ch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://stacks.github.io" # the base hostname & protocol for your site
-twitter_username: stacks_project
 github_username:  MateoCarmonaGom
 
 # Build settings
