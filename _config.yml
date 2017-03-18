@@ -18,7 +18,6 @@ email: mateo.carm@protonmail.ch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mateocarmonagom.github.io/" # the base hostname & protocol for your site
 github_username:  MateoCarmonaGom
-twitter_username: MateocarmG
 
 # Build settings
 markdown: kramdown
