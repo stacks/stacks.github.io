@@ -1,17 +1,5 @@
----
-layout: page
-title: The Topology Project
-permalink: /TheTopologyProject/
----
-
-Grothendieck
-
 <?php
-require_once("php/page.php");
-require_once("php/general.php");
-// turn the name of a part into an identifier that is more HTMLish
-function partToIdentifier($part) {
-  return strtolower(str_replace(" ", "-", $part));
+
 }
 class BrowsePage extends Page {
   private $parts;
