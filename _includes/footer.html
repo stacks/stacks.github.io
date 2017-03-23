@@ -4,11 +4,10 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-3">
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        <ul class="contact-list">
-          <li>Pieter Belmans
-          <li>Johan de Jong
-          <li>Wei Ho
+        &#9993;<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <ul class="Plato">
+          <li>Ἀγεωμέτρητος μηδεὶς εἰσίτω ! 
+          <li>» Keiner, der nicht das Mathematische begriffen hat, soll hier einen Zugang haben. « 
         </ul>
       </div>
 
@@ -19,21 +18,14 @@
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+          
+          <!--<li>{% include icon-mathoverflow.html username="mateo-carmona" id="106286" %}-->
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
-        <p>This workshop is supported by the NSF.
+        <p>The contents of this website are <br />&copy;&nbsp;{{ site.time | date: '%Y' }} under the terms of the <a href="https://github.com/MateoCarmonaGom/mateocarmonagom.github.io/blob/master/LICENSE">GNU&nbsp;License</a>.</p>
       </div>
     </div>
 
-  </div>
-
-</footer>

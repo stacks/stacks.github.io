@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Stacks Project Workshop
-email: stacksprojectworkshop@gmail.com
+title: Mateo Carmona G
+email: mateo.carm@protonmail.ch
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://stacks.github.io" # the base hostname & protocol for your site
-twitter_username: stacks_project
-github_username:  stacks
+url: "https://mateocarmonagom.github.io/" # the base hostname & protocol for your site
+github_username:  MateoCarmonaGom
 
 # Build settings
 markdown: kramdown

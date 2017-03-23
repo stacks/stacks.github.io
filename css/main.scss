@@ -12,9 +12,9 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #111111;
+$background-color: #e3efe3;
+$brand-color:      #3dc64d;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -39,7 +39,7 @@ $on-laptop:        800px;
 @import "minima";
 
 header.site-header {
-  background-color: #d9d8d1;
+  background-color: #639664;
   position: fixed;
   top: 0;
   width: 100%;
@@ -47,12 +47,12 @@ header.site-header {
 }
 
 header.site-header:hover {
-  background-color: #c9c8c1;
+  background-color: #649665;
 }
 
 header.site-header a.site-title {
   font-weight: bold;
-  background-image: url("../stacks.png");
+  background-image: url("../flaticotext.png");
   background-repeat: no-repeat;
   background-position: 4px center;
   padding-left: 45px;
