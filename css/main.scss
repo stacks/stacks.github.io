@@ -78,3 +78,36 @@ h1:before {
 ul.contact-list {
   margin-top: .5em;
 }
+
+dl.schedule {
+}
+
+dl.schedule dt {
+  height: 0;
+  text-align: right;
+  width: 7em;
+}
+
+dl.schedule dd {
+  margin-left: 8em;
+}
+
+dl#rooms dt {
+  width: 9em;
+}
+
+dl#rooms dd {
+  margin-left: 10em;
+}
+
+dl.schedule dd.title {
+  font-weight: bold;
+}
+
+dl.schedule dd.speaker span.name,
+p.speaker span.name {
+  font-style: italic;
+}
+
+dl#rooms {
+}

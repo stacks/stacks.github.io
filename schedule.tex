@@ -1,0 +1,49 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{mathtools}
+\usepackage{pdflscape}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\usepackage[scaled=0.83]{beramono}
+%\usepackage[charter]{mathdesign}
+%\usepackage[scaled]{beramono,berasans}
+\usepackage{eucal}
+\usepackage{microtype}
+\frenchspacing
+
+\begin{document}
+\pagenumbering{gobble}
+
+\begin{landscape}
+  \newcommand\coffeebreak{\emph{coffee break}}
+  \newcommand\groupwork{group work}
+  \newcommand\lunch{\emph{lunch}}
+  \renewcommand{\arraystretch}{1.35}
+  \begin{table}
+    \centering
+    \begin{tabular}{rccccccc}
+      \toprule
+                    & Monday              & Tuesday             & Wednesday            & Thursday           & Friday          & room \\
+      \midrule
+      09:00--09:30  & registration        & \coffeebreak        & \coffeebreak         & \coffeebreak       & \coffeebreak    & East Hall Common Room\\
+      09:30--10:30  & welcome             & \textbf{Taelman}    & \textbf{Javanpeykar} & \textbf{Fedorchuk} & \textbf{Lurie}  & East Hall Room 1360 \\
+      10:30--11:00  & \coffeebreak        & \coffeebreak        & \coffeebreak         & \coffeebreak       & \coffeebreak    & East Hall Common Room \\
+      11:00--12:30  & \groupwork          & \groupwork          & \groupwork           & \groupwork         & \groupwork      & Modern Languages Building \\
+      %12:30--14:00  & \lunch              & \lunch              & \lunch               & \lunch             & \lunch             \\
+      14:00--15:30  & \groupwork          & \groupwork          & \groupwork           & \groupwork         & \groupwork      & Modern Languages Building \\
+      15:30--16:00  & \coffeebreak        & \coffeebreak        & \coffeebreak         & \coffeebreak       & \coffeebreak    & East Hall Common Room \\\medskip
+      16:00--17:00  & \textbf{Mathew}     & \textbf{Talpo}      & \textbf{Krashen}     & brainstorm         & presentations   & East Hall Room 1360 \\\smallskip
+      17:15--18:00  &                     & how to contribute?  & infrastructure \\
+      18:00--\ldots &                     & \parbox{3cm}{\centering cross-referencing, \\ typos and pizza} & \parbox{3cm}{\centering cross-referencing, \\ hackathon and sandwiches} & & & East Hall Common Room \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{landscape}
+
+\end{document}
