@@ -20,4 +20,19 @@
     ga('create', 'UA-339565-14', 'auto');
     ga('send', 'pageview');
   </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ['tex2jax.js'],
+      preferredFont: "STIX",
+      jax: ['input/TeX','output/HTML-CSS'],
+      TeX: {extensions: ['AMSmath.js', 'AMSsymbols.js'],
+      TagSide: 'left'},
+      tex2jax: {
+        inlineMath: [['$','$']],
+      },
+      'HTML-CSS': { scale: 85 }
+    });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"></script>
 </head>
